@@ -31,7 +31,8 @@ class Worm:
 
     def __init__(self, path=None, target_dir_list=None, iteration=None):
         if isinstance(path, type(None)):
-            self.path = "The path that you want to infect.."
+            paths = input("Give me a path: ")
+            self.path = paths
         else:
             self.path = path
 
