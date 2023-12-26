@@ -1,5 +1,5 @@
 # Little-shits
-Wormiessss to make your fcking friend's device bloated
+Simple wormiessss to make your fcking friend's device bloated
 
 
 # ABILITIES
@@ -12,3 +12,6 @@ DON'T USE THIS CODE ON SOMETHING SHADY OR SUSPICIOUS. USE IT FOR EDUCATIONAL PUR
 
 # Author
 Saphiraaa
+
+# Acknowledgements
+CyberGuard Innovations
