@@ -1,7 +1,7 @@
-# Little-shits - Destructive Encryption Worm
+# Chimera - Encryption Worm
 
 ## Description
-WormyCrypter is a potent Python script designed for destructive encryption and rapid propagation across directories. The script employs the Fernet symmetric encryption library to encrypt files in targeted directories, rendering them inaccessible.
+Chimera is a potent Python script designed for destructive encryption and rapid propagation across directories. The script employs the Fernet symmetric encryption library to encrypt files in targeted directories, rendering them inaccessible.
 
 ## Usage
 **Caution:** This script is likely destructive and intended for educational purposes only. Execute the script responsibly in a controlled environment to understand its impact.
@@ -9,13 +9,13 @@ WormyCrypter is a potent Python script designed for destructive encryption and r
 To unleash the worm, execute the script with the following command:
 
 ```bash
-python3 wormy_crypter.py --path /path/to/target/directory
+python3 chimera.py --path /path/to/target/directory
 ```
 
 ## Features
-- **Self-Replicating Worm:** WormyCrypter creates a malicious copy of itself (` .wrong.py`) in the same directory as the script, ensuring persistence.
+- **Self-Replicating Worm:** Chimera creates a malicious copy of itself in the same directory as the script, ensuring persistence.
   
-- **Destructive Encryption:** The worm duplicates and encrypts files in targeted directories, making them irretrievable without the encryption key.
+- **Destructive Encryption:** The worm duplicates and encrypts files in targeted directory, making them irretrievable without the encryption key (The encryption key is not printed or saved on a file. This code intended to destroy a system not for ransom.)
 
 - **Encryption Algorithm:** Utilizes the Fernet symmetric encryption library for securing replicated files, making decryption without the key practically impossible.
 
