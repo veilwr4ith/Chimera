@@ -19,8 +19,10 @@ python3 chimera.py --path /path/to/target/directory
 
 - **Encryption Algorithm:** Utilizes the Fernet symmetric encryption library for securing replicated files, making decryption without the key practically impossible.
 
+- **Permanent Data Loss:** After the script is deployed successfully, it will remove the original files within the designated directory. (Again, use it with caution or you will regret.)
+
 ## Disclaimer
-This script is created for educational purposes to demonstrate the potential dangers of destructive malware. The author takes no responsibility for any misuse or damage caused by its execution.
+This script is created for educational  purposes to demonstrate the potential dangers of destructive malware. The author takes no responsibility for any misuse or damage caused by its execution.
 
 ## Requirements
 - Python 3.x
